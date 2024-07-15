@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "proxy": "https://e-comm-2-j4x0.onrender.com/",
+  "proxy": "https://e-comm-1-4kmf.onrender.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
