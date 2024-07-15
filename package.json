@@ -5,9 +5,8 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "install":"npm install",
-    "server":"node server.js",
-    "start": "node server.js",
+    "start":"npm install",
+    "server":"node Server.js",
     "client": "npm start --prefix ./client",
     "dev": "concurrently \"npm run server\" \"npm run client\" "
   },
