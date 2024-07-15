@@ -7,6 +7,9 @@
   "scripts": {
     "start":"npm install",
     "server":"node Server.js",
+    "install-client":"cd client && npm install",
+    "build-client":"cd client && npm run build",
+    "start-client":"cd client && npm run start",
     "client": "npm start --prefix ./client",
     "dev": "concurrently \"npm run server\" \"npm run client\" "
   },
